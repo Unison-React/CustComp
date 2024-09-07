@@ -1,11 +1,9 @@
-import React from 'react'
-import PushButton from './components/PushButton'
+import SliceText from './components/SliceText'
 
 const App = () => {
   return (
     <div className='flex justify-center items-center'>
-
-    <PushButton btnFunction={()=>console.log("I was pressed")} btnName='Press me'/>
+      <SliceText text='Hello' />
     </div>
   )
 }
